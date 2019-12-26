@@ -35,6 +35,9 @@ public class Book {
         this.authors = authors;
     }
 
+    public Book() {
+    }
+
     public String getTitle() {
         return title;
     }
